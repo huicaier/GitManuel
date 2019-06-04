@@ -12,4 +12,8 @@
 	git commit -m 'some commit message'
 	
 	git reset --hard or --soft HEAD~2  回退到指定的索引地址
+
+4.查看历史提交和进行日志比对
 	
+	git reflog;
+	git diff HEAD -- file   当前work tree和已提交分支的代码差异	
