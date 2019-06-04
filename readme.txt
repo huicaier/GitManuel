@@ -22,4 +22,7 @@
 
 	git checkout -- readme.txt 撤销文件修改到上一次commit或add状态
 
+6.将本地分支修改推送到远程指定分支
+	
+	git push origin master
 	
