@@ -16,4 +16,10 @@
 4.查看历史提交和进行日志比对
 	
 	git reflog;
-	git diff HEAD -- file   当前work tree和已提交分支的代码差异	
+	git diff HEAD -- file   当前work tree和已提交分支的代码差异
+
+5.撤销修改
+
+	git checkout -- readme.txt 撤销文件修改到上一次commit或add状态
+
+	
